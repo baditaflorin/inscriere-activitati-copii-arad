@@ -4,7 +4,7 @@ pre-commit:
     frontend:
       run: npm run lint && npm run typecheck && npm run test -- --run --passWithNoTests
     go:
-      run: go test ./...
+      run: make go-test
     secrets:
       run: make secret-scan
 

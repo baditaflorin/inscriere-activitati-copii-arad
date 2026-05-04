@@ -1,0 +1,469 @@
+{
+  "version": "0.1.0",
+  "generatedAt": "2026-05-04T11:58:24Z",
+  "sources": [
+    {
+      "name": "inscrieri-arad",
+      "url": "https://palatulcopiilorarad.ro/inscrieri-arad/",
+      "retrievedAt": "2026-05-04T11:58:24Z",
+      "sha256": "a5a6439b2a8485691ad8e676b8216ac7c7d6f5e2840c7a4ec0f7fb0903203495"
+    },
+    {
+      "name": "cercuri-arad",
+      "url": "https://palatulcopiilorarad.ro/cercuri-arad/",
+      "retrievedAt": "2026-05-04T11:58:24Z",
+      "sha256": "5c5ea7dfcb696702a0dcb612106d8ec8339e049086a2ff9ef0441cca5920e761"
+    },
+    {
+      "name": "relocare-temporara",
+      "url": "https://palatulcopiilorarad.ro/anunturi/comunicat-de-presa-relocarea-temporara-a-activitatilor-palatului-copiilor-arad/",
+      "retrievedAt": "2026-05-04T11:58:24Z",
+      "sha256": "3fa65df0dd448df825cfb167df2099476922de03d76c2137ad15b9ab18ebc3e4"
+    }
+  ],
+  "enrollment": {
+    "schoolYear": "2026-2027",
+    "period": "4 mai - 12 iunie 2026",
+    "email": "inscrierepcarad@gmail.com",
+    "pdfUrl": "https://palatulcopiilorarad.ro/wp-content/uploads/2026/05/cerere-inscriere-Arad-2026-2027.pdf",
+    "requiredDocuments": [
+      "cerere de inscriere completata de catre parinte/reprezentant legal/tutore",
+      "copia certificatului de nastere sau a buletinului copilului"
+    ],
+    "submissionMethods": [
+      "la profesorul coordonator",
+      "la adresa de e-mail: inscrierepcarad@gmail.com"
+    ]
+  },
+  "circles": [
+    {
+      "id": "arta-decorativa",
+      "name": "Artă decorativă",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/arta-decorativa/"
+    },
+    {
+      "id": "ceramica",
+      "name": "Ceramică",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/ceramica/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic de Industrie Alimentară Arad",
+          "address": "Str.Lucian Blaga, Nr.15, Mun.Arad",
+          "room": "Sala P8",
+          "schedule": "14-20",
+          "coordinator": "Bocșe Raul"
+        }
+      ]
+    },
+    {
+      "id": "desen-pictura",
+      "name": "Desen / Pictură",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/desen-pictura/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic de Industrie Alimentară Arad",
+          "address": "Str.Lucian Blaga, Nr.15, Mun.Arad",
+          "room": "Sala P13",
+          "schedule": "15-20",
+          "coordinator": "Stana Daniela"
+        }
+      ]
+    },
+    {
+      "id": "muzica-vocal-instrumentala-canto",
+      "name": "Muzică vocal-instrumentală (Canto)",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/muzica-vocal-instrumentala-canto/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Elena Ghiba Birta”Arad",
+          "address": "Str. B-dul General Dragalina, Nr.6, Mun. Arad",
+          "room": "Sala festivă",
+          "schedule": "15-19",
+          "coordinator": "Bizău-Roșu Laura"
+        }
+      ]
+    },
+    {
+      "id": "muzica-vocal-instrumentala-formatie",
+      "name": "Muzică vocal-instrumentală (Formație)",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/muzica-vocal-instrumentala-formatie/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Preparandia Dimitrie Țichindeal” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.28, Mun. Arad",
+          "room": "Sala 02 parter",
+          "schedule": "16-20",
+          "coordinator": "Edeleni Paul"
+        }
+      ]
+    },
+    {
+      "id": "muzica-vocal-instrumentala-pian",
+      "name": "Muzică vocal-instrumentală (Pian)",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/muzica-vocal-instrumentala-pian/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Preparandia Dimitrie Țichindeal” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.28, Mun. Arad",
+          "room": "Sala 01 parter",
+          "schedule": "16-20",
+          "coordinator": "Sfercoci Florin"
+        }
+      ]
+    },
+    {
+      "id": "muzica-vocal-instrumentala-taraf",
+      "name": "Muzică vocal-instrumentală (Taraf)",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/muzica-vocal-instrumentala-taraf/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Preparandia Dimitrie Țichindeal” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.28, Mun. Arad",
+          "room": "Sala 03 parter",
+          "schedule": "16-20",
+          "coordinator": "Lung-Frenț Paul"
+        }
+      ]
+    },
+    {
+      "id": "pictura-pe-sticla",
+      "name": "Pictură pe sticlă",
+      "category": "Artistice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/pictura-pe-sticla/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic de Industrie Alimentară Arad",
+          "address": "Str.Lucian Blaga, Nr.15, Mun.Arad",
+          "room": "Sala P19",
+          "schedule": "15-20",
+          "coordinator": "Moisescu Ariana"
+        }
+      ]
+    },
+    {
+      "id": "cultura-si-civilizatie-engleza-i",
+      "name": "Cultură și civilizație Engleză I",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/cultura-si-civilizatie-engleza-i/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Elena Ghiba Birta” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.6, Mun. Arad",
+          "room": "Sala 102",
+          "schedule": "15-19",
+          "coordinator": "Kohn Hajni"
+        }
+      ]
+    },
+    {
+      "id": "cultura-si-civilizatie-engleza-ii",
+      "name": "Cultură și civilizație Engleză II",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/cultura-si-civilizatie-engleza-ii/",
+      "sessions": [
+        {
+          "location": "Colegiul Economic Arad",
+          "address": "Str. Alexandru Dimitrie Xenopol, Nr.2, Mun. Arad",
+          "room": "Sala A19",
+          "schedule": "14-19",
+          "coordinator": "Mistor Anca"
+        }
+      ]
+    },
+    {
+      "id": "cultura-si-civilizatie-germana",
+      "name": "Cultură și civilizație Germană",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/cultura-si-civilizatie-germana/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Elena Ghiba Birta” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.6, Mun. Arad",
+          "room": "Sala 105",
+          "schedule": "15-19",
+          "coordinator": "Nan Karina"
+        }
+      ]
+    },
+    {
+      "id": "cultura-si-civilizatie-romaneasca",
+      "name": "Cultură și civilizație Românească",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/cultura-si-civilizatie-romaneasca/",
+      "sessions": [
+        {
+          "location": "Casa Corpului Didactic „Alexandru Gavra” Arad",
+          "address": "Str. Mucius Scaevola, Nr. 9, Mun. Arad",
+          "room": "Sala 3",
+          "schedule": "14-20",
+          "coordinator": "Ciucu Melania"
+        }
+      ]
+    },
+    {
+      "id": "cultura-si-civilizatie-spaniola",
+      "name": "Cultură și civilizație Spaniolă",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/cultura-si-civilizatie-spaniola/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic ,,Francisc Neuman” Arad",
+          "address": "Str. Sava Tekelija, Nr. 1, Mun. Arad",
+          "room": "Sala 9 etaj 1",
+          "schedule": "14-20",
+          "coordinator": "Mihuț Diana"
+        }
+      ]
+    },
+    {
+      "id": "educatie-pentru-cetatenie-democratica",
+      "name": "Educație pentru cetățenie democratică",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/educatie-pentru-cetatenie-democratica/",
+      "sessions": [
+        {
+          "location": "Colegiul Economic Arad",
+          "address": "Str. Alexandru Dimitrie Xenopol, Nr.2, Mun. Arad",
+          "room": "Sala 3",
+          "schedule": "14-19",
+          "coordinator": "Boran Andreea"
+        }
+      ]
+    },
+    {
+      "id": "redactie-presa-radio-tv",
+      "name": "Redacție presă / Radio-TV",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/redactie-presa-radio-tv/",
+      "sessions": [
+        {
+          "location": "Casa Corpului Didactic „Alexandru Gavra” Arad",
+          "address": "Str. Mucius Scaevola, Nr. 9, Mun. Arad",
+          "room": "Sala 9",
+          "schedule": "14-20",
+          "coordinator": "Codrean Manuela"
+        }
+      ]
+    },
+    {
+      "id": "teatru",
+      "name": "Teatru",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/teatru/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Preparandia Dimitrie Țichindeal” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.28, Mun. Arad",
+          "room": "Sala 05 etaj 1",
+          "schedule": "16-20",
+          "coordinator": "Pavel Gabriela"
+        }
+      ]
+    },
+    {
+      "id": "teatru-de-papusi",
+      "name": "Teatru de păpuși",
+      "category": "Cultural-Civice",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/teatru-de-papusi/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Preparandia Dimitrie Țichindeal” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.28, Mun. Arad",
+          "room": "Sala 04 etaj 1",
+          "schedule": "16-20",
+          "coordinator": "Andrei Mihaela"
+        }
+      ]
+    },
+    {
+      "id": "dans-modern",
+      "name": "Dans modern",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/dans-modern/",
+      "sessions": [
+        {
+          "location": "Colegiul Național ,,Elena Ghiba Birta” Arad",
+          "address": "Str. B-dul General Dragalina, Nr.6, Mun. Arad",
+          "room": "Sala de sport (mare)",
+          "schedule": "15-19",
+          "coordinator": "Cosma Mirela"
+        }
+      ]
+    },
+    {
+      "id": "dans-popular",
+      "name": "Dans popular",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/dans-popular/",
+      "sessions": [
+        {
+          "location": "Școala Gimnazială „Mihai Eminescu” Arad",
+          "address": "Str. Episcopiei, Nr.40-42, Mun. Arad",
+          "room": "Sala de sport",
+          "schedule": "Luni, Marți, Joi 14-18 Miercuri 15-18",
+          "coordinator": "Țicuș Alexandra"
+        }
+      ]
+    },
+    {
+      "id": "dans-sportiv",
+      "name": "Dans sportiv",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/dans-sportiv/",
+      "sessions": [
+        {
+          "location": "Colegiul Economic Arad",
+          "address": "Str. Alexandru Dimitrie Xenopol, Nr.2, Mun. Arad",
+          "room": "Sala de sport",
+          "schedule": "14-19",
+          "coordinator": "Lung Ioana"
+        }
+      ]
+    },
+    {
+      "id": "gimnastica-aerobica",
+      "name": "Gimnastică aerobică",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/gimnastica-aerobica/",
+      "sessions": [
+        {
+          "location": "Asociația Club Sportiv GYMTEAM Arad",
+          "address": "Str. Vasile Goldiș, Nr. 4, Mun. Arad",
+          "schedule": "14-20",
+          "coordinator": "Fărcuța Elza"
+        }
+      ]
+    },
+    {
+      "id": "judo",
+      "name": "Judo",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/judo/",
+      "sessions": [
+        {
+          "location": "Club Sportiv ,,Gloria” Arad",
+          "address": "Str. Ioan Rusu Șirianu , Nr. 6, Mun. Arad",
+          "schedule": "14-20",
+          "coordinator": "Kunzsabo Mihai"
+        },
+        {
+          "location": "Colegiul Național ,,Elena Ghiba Birta”Arad",
+          "address": "Str. B-dul General Dragalina, Nr.6, Mun. Arad",
+          "room": "Sala de sport (mică)",
+          "schedule": "15-19",
+          "coordinator": "Rus Petre"
+        }
+      ]
+    },
+    {
+      "id": "karate",
+      "name": "Karate",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/karate/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic de Industrie Alimentară Arad",
+          "address": "Str.Lucian Blaga, Nr.15, Mun.Arad",
+          "room": "Sala de sport",
+          "schedule": "Marți, Joi 14-18 Vineri 14-20",
+          "coordinator": "Balazs Emanuel"
+        }
+      ]
+    },
+    {
+      "id": "tenis-de-masa",
+      "name": "Tenis de masă",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/tenis-de-masa/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic ,,Francisc Neuman” Arad",
+          "address": "Str. Sava Tekelija, Nr. 1, Mun. Arad",
+          "room": "Sala de sport",
+          "schedule": "15-20",
+          "coordinator": "Roman Bogdan"
+        }
+      ]
+    },
+    {
+      "id": "sah",
+      "name": "Șah",
+      "category": "Sportive",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/sah/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic ,,Francisc Neuman” Arad",
+          "address": "Str. Sava Tekelija, Nr. 1, Mun. Arad",
+          "room": "Sala 11 etaj 1",
+          "schedule": "15-20",
+          "coordinator": "Cosma Mitică"
+        }
+      ]
+    },
+    {
+      "id": "aeromodele",
+      "name": "Aeromodele",
+      "category": "Tehnico-aplicative",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/aeromodele/",
+      "sessions": [
+        {
+          "location": "Palatul Copiilor Arad (curtea ISJ Arad)",
+          "address": "Str.Corneliu Coposu, Nr.26, Mun. Arad",
+          "schedule": "14-20",
+          "coordinator": "Corodeanu Vasile"
+        }
+      ]
+    },
+    {
+      "id": "informatica-multimedia",
+      "name": "Informatică / Multimedia",
+      "category": "Tehnico-aplicative",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/informatica-multimedia/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic ,,Francisc Neuman” Arad",
+          "address": "Str. Sava Tekelija, Nr. 1, Mun. Arad",
+          "room": "Laborator de informatică etaj 1",
+          "schedule": "15-20",
+          "coordinator": "Both Lidia"
+        }
+      ]
+    },
+    {
+      "id": "jocuri-logice",
+      "name": "Jocuri logice",
+      "category": "Tehnico-aplicative",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/jocuri-logice/",
+      "sessions": [
+        {
+          "location": "Liceul Tehnologic de Industrie Alimentară Arad",
+          "address": "Str.Lucian Blaga, Nr.15, Mun.Arad",
+          "room": "Laborator de informatică parter",
+          "schedule": "15-20",
+          "coordinator": "Albac Ioan"
+        }
+      ]
+    },
+    {
+      "id": "karting",
+      "name": "Karting",
+      "category": "Tehnico-aplicative",
+      "detailsUrl": "https://palatulcopiilorarad.ro/cercuri/karting/",
+      "sessions": [
+        {
+          "location": "Palatul Copiilor Arad (curtea ISJ Arad)",
+          "address": "Str.Corneliu Coposu, Nr.26, Mun. Arad",
+          "schedule": "14-18",
+          "coordinator": "Tabără Petre"
+        }
+      ]
+    }
+  ]
+}
