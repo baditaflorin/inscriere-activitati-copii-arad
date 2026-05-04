@@ -30,7 +30,7 @@ frontend-test:
 	npm run test -- --run --passWithNoTests
 
 go-test:
-	go test $(GO_PACKAGES)
+	CGO_ENABLED=0 go test $(GO_PACKAGES)
 
 $(GITLEAKS):
 	mkdir -p .bin
