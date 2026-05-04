@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "typecheck": "tsc -p web/tsconfig.json --noEmit",
     "test": "vitest --config web/vitest.config.ts",
+    "pdf:smoke": "tsx scripts/pdf-smoke.ts",
     "smoke": "playwright test",
     "hooks:install": "lefthook install"
   },
@@ -45,6 +46,7 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "jsdom": "^26.1.0",
     "lefthook": "^1.11.12",
+    "tsx": "^4.21.0",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.31.1",
     "vite": "^6.3.4",

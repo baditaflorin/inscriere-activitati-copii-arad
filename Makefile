@@ -6,7 +6,7 @@ VERSION := $(shell sed -n '1p' VERSION.md)
 GITLEAKS := $(CURDIR)/.bin/gitleaks
 GO_PACKAGES := $(shell go list ./... | grep -v '/node_modules/' || true)
 
-.PHONY: install dev build-pages frontend-lint frontend-typecheck frontend-test go-test secret-scan check smoke docker-build-amd64 docker-push-amd64 install-hooks clean
+.PHONY: install dev build-pages frontend-lint frontend-typecheck frontend-test go-test pdf-smoke secret-scan check smoke docker-smoke docker-build-amd64 docker-push-amd64 install-hooks clean
 
 install:
 	npm ci
@@ -32,6 +32,9 @@ frontend-test:
 go-test:
 	CGO_ENABLED=0 go test $(GO_PACKAGES)
 
+pdf-smoke:
+	npm run pdf:smoke
+
 $(GITLEAKS):
 	mkdir -p .bin
 	GOBIN=$(CURDIR)/.bin go install github.com/zricethezav/gitleaks/v8@latest
@@ -41,8 +44,11 @@ secret-scan: $(GITLEAKS)
 
 check: frontend-lint frontend-typecheck frontend-test go-test secret-scan
 
-smoke: build-pages
+smoke: build-pages pdf-smoke
 	npm run smoke
+
+docker-smoke:
+	./scripts/docker-smoke.sh
 
 docker-build-amd64:
 	docker buildx build --platform linux/amd64 --load -t $(IMAGE):$(VERSION) .
