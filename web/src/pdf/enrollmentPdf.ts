@@ -44,6 +44,7 @@ export async function generateEnrollmentPdf(
   drawFittedText(page, font, form.phone, { x: 400, y: 493.8, maxWidth: 150, size: 10.2 }, black);
   drawWrappedText(page, font, makeCircleText(circles), { x: 207, y: 466.2, maxWidth: 344, size: 9.2 }, blue, 2);
   drawFittedText(page, font, formatRomanianDate(form.date), { x: 145, y: 104, maxWidth: 120 }, black);
+  drawFittedText(page, font, form.parentSignature, { x: 370, y: 126, maxWidth: 170, size: 10.2 }, black);
   drawConsentMark(page, form.consent, blue);
 
   return pdfDoc.save({ useObjectStreams: false });

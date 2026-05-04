@@ -12,6 +12,7 @@ const fontBytes = toArrayBuffer(readFileSync(resolve(process.cwd(), "web/public/
 
 const form: EnrollmentFormData = {
   parentName: "Popescu Maria",
+  parentSignature: "Semnatura Popescu Maria",
   childName: "Popescu Ana",
   school: "Scoala Gimnaziala Mihai Eminescu",
   className: "III",

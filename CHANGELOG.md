@@ -10,3 +10,4 @@
 - Added a prepared `mailto:` next-step link, GitHub repository link, and Made by Florin Badita attribution.
 - Tuned official PDF field coordinates for cleaner spacing in the template.
 - Added Gmail compose, manual copy/paste e-mail text, and circle thumbnails for faster scanning.
+- Added parent/tutor signature capture and placement on every generated PDF.

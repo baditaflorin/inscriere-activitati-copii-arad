@@ -4,6 +4,7 @@ export const consentValues = ["DA", "NU"] as const;
 
 export const enrollmentFormSchema = z.object({
   parentName: z.string().trim().min(3, "Scrie numele parintelui sau tutorelui."),
+  parentSignature: z.string().trim().min(3, "Scrie semnatura parintelui sau tutorelui."),
   childName: z.string().trim().min(3, "Scrie numele copilului."),
   school: z.string().trim().min(2, "Scrie gradinita sau scoala."),
   className: z.string().trim().min(1, "Scrie grupa sau clasa."),

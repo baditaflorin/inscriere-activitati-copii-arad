@@ -11,6 +11,7 @@ const fontBytes = toArrayBuffer(readFileSync(resolve("web/public/assets/fonts/No
 
 const form: EnrollmentFormData = {
   parentName: "Popescu Maria",
+  parentSignature: "Semnatura Popescu Maria",
   childName: "Popescu Ana",
   school: "Scoala Gimnaziala Mihai Eminescu",
   className: "III",
@@ -34,7 +35,7 @@ try {
     throw new Error("generated PDF is not larger than the official template");
   }
   const extractedText = execFileSync("pdftotext", ["-layout", outputPath, "-"], { encoding: "utf8" });
-  for (const expected of ["Popescu Maria", "Popescu Ana", "Șah"]) {
+  for (const expected of ["Popescu Maria", "Semnatura Popescu Maria", "Popescu Ana", "Șah"]) {
     if (!extractedText.includes(expected)) {
       throw new Error(`generated PDF text does not include ${expected}`);
     }

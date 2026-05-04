@@ -3,6 +3,7 @@ import { enrollmentFormSchema } from "./formSchema";
 
 const validForm = {
   parentName: "Popescu Maria",
+  parentSignature: "Popescu Maria",
   childName: "Popescu Ana",
   school: "Scoala Gimnaziala Mihai Eminescu",
   className: "III",

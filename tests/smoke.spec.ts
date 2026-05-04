@@ -33,6 +33,7 @@ test("fills enrollment data and downloads a PDF", async ({ page }) => {
   await expect(page.getByTestId("circle-image-desen-pictura")).toBeVisible();
 
   await page.getByRole("textbox", { name: "Nume si prenume parinte" }).fill("Popescu Maria");
+  await page.getByRole("textbox", { name: "Semnatura parinte / tutore" }).fill("Popescu Maria");
   await page.getByRole("textbox", { name: "Nume si prenume copil" }).fill("Popescu Ana");
   await page.getByRole("textbox", { name: "Gradinita / scoala" }).fill("Scoala Gimnaziala Mihai Eminescu");
   await page.getByRole("textbox", { name: "Grupa / clasa" }).fill("III");

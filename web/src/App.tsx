@@ -54,6 +54,7 @@ export default function App() {
     resolver: zodResolver(enrollmentFormSchema),
     defaultValues: {
       parentName: "",
+      parentSignature: "",
       childName: "",
       school: "",
       className: "",
@@ -341,6 +342,12 @@ export default function App() {
                   />
                   <TextField label="Telefon" registration={form.register("phone")} error={form.formState.errors.phone?.message} inputMode="tel" />
                   <TextField label="Adresa" registration={form.register("address")} error={form.formState.errors.address?.message} wide />
+                  <TextField
+                    label="Semnatura parinte / tutore"
+                    registration={form.register("parentSignature")}
+                    error={form.formState.errors.parentSignature?.message}
+                    wide
+                  />
                 </div>
               </div>
 
