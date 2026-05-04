@@ -26,6 +26,20 @@ go.work.sum
 
 # env file
 .env
+.env.*
+!.env.example
+
+# Local tooling
+.bin/
+node_modules/
+web/node_modules/
+
+# Build and runtime output
+dist/
+tmp/
+*.log
+playwright-report/
+test-results/
 
 # Editor/IDE
 # .idea/

@@ -1,0 +1,21 @@
+pre-commit:
+  parallel: true
+  commands:
+    frontend:
+      run: npm run lint && npm run typecheck && npm run test -- --run --passWithNoTests
+    go:
+      run: go test ./...
+    secrets:
+      run: make secret-scan
+
+pre-push:
+  commands:
+    check:
+      run: make check
+    pages:
+      run: make build-pages
+
+post-merge:
+  commands:
+    deps:
+      run: npm ci && go mod download
