@@ -35,18 +35,45 @@ export async function generateEnrollmentPdf(
   const black = rgb(0.05, 0.06, 0.08);
   const blue = rgb(0.03, 0.26, 0.47);
 
-  drawFittedText(page, font, form.parentName, { x: 102, y: 604, maxWidth: 440 }, black);
-  drawFittedText(page, font, form.childName, { x: 188, y: 576.5, maxWidth: 360 }, black);
-  drawFittedText(page, font, form.school, { x: 126, y: 549, maxWidth: 270 }, black);
-  drawFittedText(page, font, form.className, { x: 472, y: 549, maxWidth: 84 }, black);
-  drawFittedText(page, font, form.cnp, { x: 80, y: 521.5, maxWidth: 180 }, black);
-  drawFittedText(page, font, form.address, { x: 62, y: 494, maxWidth: 288 }, black);
-  drawFittedText(page, font, form.phone, { x: 400, y: 494, maxWidth: 150 }, black);
-  drawWrappedText(page, font, makeCircleText(circles), { x: 212, y: 466, maxWidth: 340, size: 8.8 }, blue, 4);
+  drawFittedText(page, font, form.parentName, { x: 95, y: 604, maxWidth: 455, size: 10.2 }, black);
+  drawFittedText(page, font, form.childName, { x: 184, y: 576.5, maxWidth: 365, size: 10.2 }, black);
+  drawFittedText(page, font, form.school, { x: 126, y: 549, maxWidth: 284, size: 10.2 }, black);
+  drawFittedText(page, font, form.className, { x: 476, y: 549, maxWidth: 78, size: 10.2 }, black);
+  drawCNP(page, font, form.cnp, { x: 82.2, y: 520.4, maxWidth: 183, size: 9.4 }, black);
+  drawFittedText(page, font, form.address, { x: 62, y: 493.8, maxWidth: 296, size: 10.2 }, black);
+  drawFittedText(page, font, form.phone, { x: 400, y: 493.8, maxWidth: 150, size: 10.2 }, black);
+  drawWrappedText(page, font, makeCircleText(circles), { x: 207, y: 466.2, maxWidth: 344, size: 9.2 }, blue, 2);
   drawFittedText(page, font, formatRomanianDate(form.date), { x: 145, y: 104, maxWidth: 120 }, black);
-  drawFittedText(page, font, "X", { x: form.consent === "DA" ? 18 : 47, y: 392.5, maxWidth: 12, size: 12 }, blue);
+  drawConsentMark(page, form.consent, blue);
 
   return pdfDoc.save({ useObjectStreams: false });
+}
+
+function drawCNP(page: PDFPage, font: PDFFont, text: string, box: DrawBox, color = rgb(0, 0, 0)) {
+  const digits = compact(text).slice(0, 13).split("");
+  const cellWidth = 14.67;
+  const size = box.size ?? 9.4;
+  digits.forEach((digit, index) => {
+    const digitWidth = font.widthOfTextAtSize(digit, size);
+    page.drawText(digit, {
+      x: box.x + index * cellWidth + (cellWidth - digitWidth) / 2,
+      y: box.y,
+      size,
+      font,
+      color,
+    });
+  });
+}
+
+function drawConsentMark(page: PDFPage, consent: EnrollmentFormData["consent"], color = rgb(0, 0, 0)) {
+  page.drawRectangle({
+    x: consent === "DA" ? 12.4 : 41.5,
+    y: 391.2,
+    width: 21,
+    height: 13,
+    borderColor: color,
+    borderWidth: 1.1,
+  });
 }
 
 export function makeCircleText(circles: Circle[]) {

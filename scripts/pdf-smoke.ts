@@ -23,7 +23,6 @@ const form: EnrollmentFormData = {
 
 const circles: Circle[] = [
   { id: "sah", name: "Șah", category: "Sportive", sessions: [] },
-  { id: "desen-pictura", name: "Desen / Pictură", category: "Artistice", sessions: [] },
 ];
 
 const tempDir = mkdtempSync(join(tmpdir(), "pcarad-pdf-"));
@@ -35,7 +34,7 @@ try {
     throw new Error("generated PDF is not larger than the official template");
   }
   const extractedText = execFileSync("pdftotext", ["-layout", outputPath, "-"], { encoding: "utf8" });
-  for (const expected of ["Popescu Maria", "Popescu Ana", "Șah", "Desen / Pictură"]) {
+  for (const expected of ["Popescu Maria", "Popescu Ana", "Șah"]) {
     if (!extractedText.includes(expected)) {
       throw new Error(`generated PDF text does not include ${expected}`);
     }

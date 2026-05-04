@@ -13,6 +13,7 @@ Implemented the first production-ready version of the Palatul Copiilor Arad enro
 ## Issues found during implementation
 
 - The official PDF has no AcroForm fields, so filling must use measured draw coordinates.
+- The official circle line is too short for many selected activities, so multi-circle downloads now use one PDF per circle in a ZIP.
 - The local Go environment had global CGO flags for ONNX Runtime; local Go tests now force `CGO_ENABLED=0`.
 - `pdf-lib` needs the matching `@pdf-lib/fontkit` adapter for reliable custom-font embedding.
 
