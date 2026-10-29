@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	github.com/PuerkitoBio/goquery v1.12.0
-	github.com/go-chi/chi/v5 v5.2.5
+	github.com/go-chi/chi/v5 v5.4.0
 	github.com/prometheus/client_golang v1.23.2
 	github.com/rs/zerolog v1.35.1
 	golang.org/x/text v0.36.0
